@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blue_eclipse"
     tools:context=".LoginActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_logo"
+            android:src="@drawable/logo"
+            android:layout_width="280dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="200dp"/>
+
+    <LinearLayout
+        android:layout_below="@+id/img_logo"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:layout_width="200dp"
+            android:layout_marginTop="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="55dp"
+            android:src="@drawable/google_login"/>
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

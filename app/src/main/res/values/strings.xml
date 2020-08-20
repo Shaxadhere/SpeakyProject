@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">SpeakyProject</string>
+    <string name="app_name">Speaky</string>
+    <string name="title_activity_home">MainActivity</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_chats">Chats</string>
 </resources>
